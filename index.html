@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+
+    <style>
+        #welcome-section{
+            height: 100vh;
+        }
+
+        #navbar{
+            position: fixed;
+            top: 0;
+        }
+        @media (max-width: 600px) {
+            .facet_sidebar {
+                display: none;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    
+
+
+    <nav id="navbar">
+        <a href="#projects">Link</a>
+        <a id="profile-link" target="_blank" href="https://github.com/fio4">Mis proyectos!!!</a>
+    </nav>
+   
+    <section id="welcome-section">
+        <h1>Bienvenidos</h1>
+    </section>
+    <section id="projects">
+        <div class="project-tile">PROYECTOS</div>
+        <a href="https://github.com/fio4/freecodecamp_tribute">Proyecto de Raúl Romero</a>
+    </section>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
